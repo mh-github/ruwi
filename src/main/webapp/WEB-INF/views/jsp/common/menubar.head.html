@@ -1,0 +1,14 @@
+<link rel="stylesheet" href="<%=request.getContextPath()%>/css/style.css" type="text/css" media="screen, projection" />
+<script type="text/javascript" src="<%=request.getContextPath()%>/webjars/jquery/2.1.3/jquery.js"></script>
+<script type="text/javascript" src="<%=request.getContextPath()%>/webjars/jquery-navigation/2.1/nav.js"></script>
+<script type="text/javascript">	
+	$(document).ready(function() {
+		$("#JqueryMenu").navPlugin({
+			'itemWidth': 120,
+			'itemHeight': 30,
+			'navEffect': "fade",
+			'speed': 500
+		});
+
+	});
+</script>
