@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link href="<%=request.getContextPath()%>/css/ruwi.css" rel="stylesheet">
 <title>Ruwi Login</title>
 <script>
 	function setFocus() {
@@ -12,11 +13,13 @@
 </script>
 </head>
 
-<body onload="setFocus();">
-	<div align="center">
-		<h1>Hello World, Ruwi App!</h1>
+<body class="content" onload="setFocus();">
+	<h1 align="center"><u>Hello World, Ruwi App!</u></h1>
+	<div style="width: 500px; background-color: #CCABC1; float: left;">
 		<h2>The world's latest financial accounting package</h2>
 		<h3>And a programmer's dream program</h3>
+	</div>
+	<div style="width: 100px; margin-left: 625px;">
 		<form action="j_spring_security_check" method="post">
 
 			<table style="background-color: #E9FFFF; border: #CCABC1 5px solid;"

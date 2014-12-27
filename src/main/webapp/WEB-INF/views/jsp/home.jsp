@@ -8,7 +8,7 @@
 <body class="content">
 	<%@ include file="common/menubar.body.html" %>
 	<br>
-	<div style="background-color:lightblue;">
+	<div style="background-color:#CCABC1;">
 		<h2>Welcome buddy.<br>
 		You're now logged in ruwi, the coolest accounting package in the world</h2>
 	</div>

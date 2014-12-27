@@ -1,2 +1,0 @@
-<script type="text/javascript" src="<%=request.getContextPath()%>/webjars/jquery-ui/1.11.2/ui/jquery.ui.core.js"></script>
-<link rel="stylesheet" href="<%=request.getContextPath()%>/webjars/jquery-ui/1.11.2/themes/base/jquery-ui.css" />
